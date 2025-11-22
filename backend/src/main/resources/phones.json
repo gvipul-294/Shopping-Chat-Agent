@@ -1,0 +1,99 @@
+[
+  {
+    "name": "OnePlus 12R",
+    "brand": "OnePlus",
+    "price": 29999,
+    "camera": "50MP",
+    "battery": "5500mAh",
+    "features": ["fast charging", "AMOLED", "120Hz refresh rate", "Snapdragon 8 Gen 2"],
+    "display": "6.78 inch AMOLED",
+    "processor": "Snapdragon 8 Gen 2",
+    "storage": 128,
+    "ram": 8
+  },
+  {
+    "name": "Pixel 8a",
+    "brand": "Google",
+    "price": 32999,
+    "camera": "64MP",
+    "battery": "4385mAh",
+    "features": ["OIS", "compact", "AI features", "Pure Android"],
+    "display": "6.1 inch OLED",
+    "processor": "Google Tensor G3",
+    "storage": 128,
+    "ram": 8
+  },
+  {
+    "name": "Samsung Galaxy A54",
+    "brand": "Samsung",
+    "price": 27999,
+    "camera": "50MP",
+    "battery": "5000mAh",
+    "features": ["water resistant", "AMOLED", "Samsung One UI"],
+    "display": "6.4 inch Super AMOLED",
+    "processor": "Exynos 1380",
+    "storage": 128,
+    "ram": 6
+  },
+  {
+    "name": "Redmi Note 13 Pro",
+    "brand": "Xiaomi",
+    "price": 19999,
+    "camera": "200MP",
+    "battery": "5100mAh",
+    "features": ["fast charging", "high resolution camera", "MIUI"],
+    "display": "6.67 inch AMOLED",
+    "processor": "Snapdragon 7s Gen 2",
+    "storage": 128,
+    "ram": 8
+  },
+  {
+    "name": "Nothing Phone 2a",
+    "brand": "Nothing",
+    "price": 23999,
+    "camera": "50MP",
+    "battery": "5000mAh",
+    "features": ["unique design", "Glyph interface", "clean UI"],
+    "display": "6.7 inch AMOLED",
+    "processor": "MediaTek Dimensity 7200 Pro",
+    "storage": 128,
+    "ram": 8
+  },
+  {
+    "name": "Realme 12 Pro",
+    "brand": "Realme",
+    "price": 24999,
+    "camera": "50MP",
+    "battery": "5000mAh",
+    "features": ["fast charging", "premium design", "OIS"],
+    "display": "6.7 inch AMOLED",
+    "processor": "Snapdragon 6 Gen 1",
+    "storage": 128,
+    "ram": 8
+  },
+  {
+    "name": "Vivo V29",
+    "brand": "Vivo",
+    "price": 34999,
+    "camera": "50MP",
+    "battery": "4600mAh",
+    "features": ["portrait photography", "fast charging", "sleek design"],
+    "display": "6.78 inch AMOLED",
+    "processor": "Snapdragon 778G",
+    "storage": 256,
+    "ram": 12
+  },
+  {
+    "name": "Motorola Edge 40",
+    "brand": "Motorola",
+    "price": 26999,
+    "camera": "50MP",
+    "battery": "4400mAh",
+    "features": ["near-stock Android", "fast charging", "curved display"],
+    "display": "6.55 inch pOLED",
+    "processor": "MediaTek Dimensity 8020",
+    "storage": 256,
+    "ram": 8
+  }
+]
+
