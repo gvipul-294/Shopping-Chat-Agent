@@ -3,6 +3,8 @@ package com.example.agent.service;
 import com.example.agent.model.Phone;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +17,8 @@ import java.util.stream.Collectors;
 
 @Service
 public class PhoneCatalogService {
+
+    private static final Logger logger = LoggerFactory.getLogger(PhoneCatalogService.class);
 
     private List<Phone> phones = new ArrayList<>();
     private final ObjectMapper objectMapper = new ObjectMapper();
@@ -30,8 +34,9 @@ public class PhoneCatalogService {
                 inputStream = resource.getInputStream();
             }
             phones = objectMapper.readValue(inputStream, new TypeReference<List<Phone>>() {});
+            logger.info("Successfully loaded {} phones from catalog", phones.size());
         } catch (IOException e) {
-            System.err.println("Error loading phones.json: " + e.getMessage());
+            logger.error("Error loading phones.json: {}", e.getMessage(), e);
             phones = new ArrayList<>();
         }
     }
